@@ -1,4 +1,4 @@
-# CNN-LSTM-Multimodal-Human-Intent-Recognition
+# CNN-LSTM-Multimodal For Human Intent Recognition
 Predicting human cognitive intent in human-robot collaboration by fusing simulated body-language signals with neurophysiological priors; no synchronized sensors required.
 ### OVERVIEW
 Robots operating alongside humans need to anticipate intent before an action completes — not just react to it. This repo implements a CNN-LSTM framework that classifies human cognitive/intent state from:
