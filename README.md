@@ -2,8 +2,8 @@
 Predicting human cognitive intent in human-robot collaboration by fusing simulated body-language signals with neurophysiological priors; no synchronized sensors required.
 ### OVERVIEW
 Robots operating alongside humans need to anticipate intent before an action completes — not just react to it. This repo implements a CNN-LSTM framework that classifies human cognitive/intent state from:
-- 🎥 Vision modality — skeletal keypoints extracted via PoseNet from Blender-simulated HRC scenarios
-- 🧬 Neurophysiology modality — EEG / EMG / ECG / GSR signals from public datasets, used as a population-level prior \
+- 🎥 Vision modality: skeletal keypoints extracted via PoseNet from Blender-simulated HRC scenarios
+- 🧬 Neurophysiology modality: EEG / EMG / ECG / GSR signals from public datasets, used as a population-level prior \
 The two are fused with cross-attention and modeled over time with an LSTM.
 <p align="center">
 <img width="442" height="182" alt="image" src="https://github.com/user-attachments/assets/422b76b0-472b-4ee3-b4df-cb77cf913338" />
